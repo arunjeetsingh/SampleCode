@@ -1,0 +1,16 @@
+﻿<Page
+    x:Class="ComposeTextMessage.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ComposeTextMessage"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <StackPanel Orientation="Vertical" Margin="10">
+            <TextBox x:Name="Message" Text="This is a test text message. Try saying that 5 times!" />
+            <Button x:Name="ComposeMessage" Content="Compose Message" Click="ComposeMessage_Click" />
+        </StackPanel>
+    </Grid>
+</Page>
