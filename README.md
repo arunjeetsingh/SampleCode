@@ -13,3 +13,6 @@ Development Kit (SDK). These can be found at <http://developer.windows.com>.
 If you'd like a free copy of Windows 10 please become a 
 [Windows Insider](http://insider.windows.com) 
 
+Happy hacking!
+
+[@aruntalkstech](http://www.twitter.com/aruntalkstech)
