@@ -1,0 +1,24 @@
+﻿<Window x:Class="WPFProtocolHandler.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFProtocolHandler"
+        mc:Ignorable="d"
+        Title="WPF Protocol Handler" Height="350" Width="525">
+    <Grid>
+        <StackPanel Orientation="Vertical">
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="Input URI: " />
+                <TextBox x:Name="InputUrI" Text="[Input URI]" IsReadOnly="True" />
+            </StackPanel>
+            <TextBlock Text="Install new custom protocol scheme:" Margin="0, 50, 0, 0" />
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="Scheme Name: " />
+                <TextBox x:Name="SchemeName" Text="com.aruntalkstech.wpftarget" />
+                <Button x:Name="InstallProtocol" Content="Install" Click="InstallProtocol_Click" />
+                <Button x:Name="UninstallProtocol" Content="Uninstall" Click="UninstallProtocol_Click" />
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>
