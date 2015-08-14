@@ -1,4 +1,4 @@
-# WPF App Launching Universal App
+# Universal App Launching WPF App 
 
 This sample demostrates a Universal Windows App (UWA) launching 
 or deep linking into a Windows Presentation Foundation (WPF) app. To run
