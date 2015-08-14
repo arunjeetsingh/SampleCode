@@ -12,4 +12,4 @@ description of this sample is available
 Feel free to submit pull requests on this README.md or the code if you think it could
 use improvement. Happy hacking!
 
-[@aruntalkstech](https://twitter.com/aruntalkstech)L:
+[@aruntalkstech](https://twitter.com/aruntalkstech)
